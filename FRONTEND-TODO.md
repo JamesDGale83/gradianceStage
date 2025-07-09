@@ -24,4 +24,6 @@ James Todo
 styling/ structure. The older one had a lot of fixed height columns/rows and was 
 too complicated, this new one is simpler and more reactive to window resizing.
 
+-     UPDATE:  created duplicate repository with only our frontend stuff
+
 
