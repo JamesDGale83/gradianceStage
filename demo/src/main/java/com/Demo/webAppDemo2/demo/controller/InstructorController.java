@@ -14,16 +14,6 @@ import java.util.Map;
 @Controller
 public class InstructorController {
 
-    private final gradienceDao gradDao;
-
-    @Autowired
-    public InstructorController(gradienceDao gradDao) {
-        this.gradDao = gradDao;
-    }
-
-
-
-
     @GetMapping("instructor")
     public String getInstructor(Map<String, Object> model) {
         List<Student> students = new ArrayList<>();
