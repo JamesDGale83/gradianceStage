@@ -31,11 +31,32 @@
 }
 #question-modal-container{
       height: 65vh;
+      width: 100%;
 }
 
 .h-60{
       height:60%;
 }
+
+.h-80{
+      height:80%;
+}
+
 .h-40{
       height:40%;
+}
+
+.h-20{
+      height: 20%;
+}
+
+.fixed-queue{
+      width: 600px;
+}
+
+
+@media (max-width: 991.98px) {
+  .fixed-queue {
+    width: 100%;
+  }
 }
